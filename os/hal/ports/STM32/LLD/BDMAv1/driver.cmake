@@ -1,0 +1,2 @@
+list(APPEND PLATFORMSRC ${CHIBIOS}/os/hal/ports/STM32/LLD/BDMAv1/stm32_bdma.c)
+list(APPEND PLATFORMINC ${CHIBIOS}/os/hal/ports/STM32/LLD/BDMAv1)

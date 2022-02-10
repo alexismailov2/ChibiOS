@@ -1,0 +1,2 @@
+list(APPEND PLATFORMSRC ${CHIBIOS}/os/hal/ports/STM32/LLD/EXTIv1/stm32_exti.c)
+list(APPEND PLATFORMINC ${CHIBIOS}/os/hal/ports/STM32/LLD/EXTIv1)

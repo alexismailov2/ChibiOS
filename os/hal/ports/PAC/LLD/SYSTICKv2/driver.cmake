@@ -1,0 +1,2 @@
+list(APPEND PLATFORMSRC ${CHIBIOS}/os/hal/ports/PAC/LLD/SYSTICKv2/hal_st_lld.c)
+list(APPEND PLATFORMINC ${CHIBIOS}/os/hal/ports/PAC/LLD/SYSTICKv2)
