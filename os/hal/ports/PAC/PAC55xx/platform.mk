@@ -39,7 +39,7 @@ include $(CHIBIOS)/os/hal/ports/PAC/LLD/GPIOv2/driver.mk
 #include $(CHIBIOS)/os/hal/ports/PAC/LLD/RTCv2/driver.mk
 #include $(CHIBIOS)/os/hal/ports/PAC/LLD/SPIv1/driver.mk
 #include $(CHIBIOS)/os/hal/ports/PAC/LLD/SDIOv1/driver.mk
-#include $(CHIBIOS)/os/hal/ports/PAC/LLD/SYSTICKv1/driver.mk
+include $(CHIBIOS)/os/hal/ports/PAC/LLD/SYSTICKv1/driver.mk
 include $(CHIBIOS)/os/hal/ports/PAC/LLD/TIMv1/driver.mk
 #include $(CHIBIOS)/os/hal/ports/PAC/LLD/USARTv1/driver.mk
 #include $(CHIBIOS)/os/hal/ports/PAC/LLD/xWDGv1/driver.mk
