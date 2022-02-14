@@ -359,7 +359,7 @@ typedef PAC55XX_GPIO_TYPEDEF * ioportid_t;
  *
  * @notapi
  */
-#define pal_lld_setport(port, bits) ((port)->DOSET = (uint16_t)(bits))
+#define pal_lld_setport(port, bits) ((port)->DOSET.w = (uint32_t)(bits))
 
 /**
  * @brief   Clears a bits mask on a I/O port.
@@ -371,7 +371,7 @@ typedef PAC55XX_GPIO_TYPEDEF * ioportid_t;
  *
  * @notapi
  */
-#define pal_lld_clearport(port, bits) ((port)->CLEAR = (uint16_t)(bits))
+#define pal_lld_clearport(port, bits) ((port)->DOCLEAR.w = (uint8_t)(bits))
 
 /**
  * @brief   Writes a group of bits.
